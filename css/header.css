@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.header img {
+    height: 48px;
+    margin: 8px;
+}
+
+.header .controls {
+    align-items: flex-end;
+    display: flex;
+}
+
+.header .controls button.active {
+    border-bottom: 2px solid var(--color-primary);
+}
+.header .controls button {
+    background-color: transparent;
+    display: inline-block;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+}
+    .header .controls button img {
+        margin: 0px;
+        width: 32px;
+        height: 32px;
+    }
+    .header .controls button p {
+        line-height: 1;
+        font-weight: normal;
+        font-size: 12px;
+        margin: 5px 0px 5px 0px;
+        padding: 0px;
+        color: var(--color-primary);
+    }
