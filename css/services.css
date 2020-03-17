@@ -1,0 +1,71 @@
+.services {
+    padding: 0px 8px 16px 8px;
+    color: var(--color-primary);
+}
+
+.services .title {
+    font-size: 24px;
+    line-height: 1;
+    margin: 0px;
+    font-family: 'Playfair Display';
+}
+
+.services .element {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Lato Medium';
+}
+
+.services .element img {
+    height: 128px;
+}
+
+.services .element .content, .services .element img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.services .element .content {
+    padding: 0px;
+    padding-left: 8px;
+}
+
+.services .element .content .name {
+    line-height: 1;
+    margin: 0px;
+}
+
+.services .element .content .description {
+    margin-top: 8px;
+    margin-bottom: 0px;
+    font-size: 12px;
+}
+
+@media (min-width: 600px) {
+    .services {
+        padding: 16px 10%;
+    }
+    .services .element {
+        display: inline-block;
+        width: 32%;
+    }
+    .services .element .content {
+        padding: 0px;
+    }
+    .services .element .content, 
+    .services .element img {
+        display: block;
+    }
+    .services .element img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+@media (min-width: 750px) {
+    .services .element {
+        width: 24.5%;
+    }
+}

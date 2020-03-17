@@ -1,0 +1,45 @@
+.gallery {
+    padding: 0px 8px 16px 8px;
+    color: var(--color-primary);
+}
+
+.gallery .title {
+    font-size: 24px;
+    line-height: 1;
+    margin: 16px 0px;
+    font-family: 'Playfair Display';
+}
+
+.cuadrado {
+    border-radius: 7px;
+    position: relative;
+    width: calc(50% - 4px);
+    display: inline-block;
+}
+
+.cuadrado:after {
+    content: "";
+    display: block;
+    padding-bottom: calc(100% - 8px);
+}
+
+@media (min-width: 450px) {
+    .cuadrado {
+        width: calc(33.33% - 4px);
+    }
+}
+
+@media (min-width: 600px) {
+    .gallery {
+        padding: 0px 10% 16px 10%;
+    }
+    .cuadrado {
+        width: calc(25% - 4px);
+    }
+}
+
+@media (min-width: 900px) {
+    .cuadrado {
+        width: calc(20% - 4px);
+    }
+}
