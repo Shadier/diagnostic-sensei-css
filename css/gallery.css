@@ -3,7 +3,12 @@
     color: var(--color-primary);
 }
 
-.gallery .title {
+.location p.title {
+    padding: 0px 8px 0px 8px;
+}
+
+.gallery .title, .location .title {
+    color: var(--color-primary);
     font-size: 24px;
     line-height: 1;
     margin: 16px 0px;
@@ -32,6 +37,9 @@
 @media (min-width: 600px) {
     .gallery {
         padding: 0px 10% 16px 10%;
+    }
+    .location p.title {
+        padding: 0px 10% 0px 10%;
     }
     .cuadrado {
         width: calc(25% - 4px);

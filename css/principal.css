@@ -7,6 +7,24 @@
     background-size: cover;
     background-color: black;
 }
+.second-bg {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 320px;
+    background: url("../images/about-us.png") no-repeat center center;
+    background-size: cover;
+    background-color: black;
+}
+.third-bg {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 320px;
+    background: url("../images/services.png") no-repeat center center;
+    background-size: cover;
+    background-color: black;
+}
 
 .principal-bg .carousel {
     position: absolute;
@@ -35,6 +53,14 @@
 @media (min-width: 600px) {
     .principal-bg {
         background: url("../images/web-principal.png") no-repeat center center;
+        background-size: cover;
+    }
+    .second-bg {
+        background: url("../images/web-about-us.png") no-repeat center center;
+        background-size: cover;
+    }
+    .third-bg {
+        background: url("../images/web-services.png") no-repeat center center;
         background-size: cover;
     }
 
