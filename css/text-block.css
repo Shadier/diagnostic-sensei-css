@@ -1,0 +1,14 @@
+.content {
+    padding: 16px 8px;
+    color: var(--color-primary);
+}
+
+.content .title {
+    font-size: 24px;
+    font-family: 'Playfair Display';
+}
+
+.content .description{
+    font-family: 'Lato Medium';
+    line-height: 1.25;
+}
